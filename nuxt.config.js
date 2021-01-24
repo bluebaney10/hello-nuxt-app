@@ -28,11 +28,34 @@ export default {
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
     '@nuxt/content',
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    '@nuxtjs/auth'
   ],
 
   axios:{
-        baseUrl:'https://picsum.photos/',
+        baseURL:'http://localhost:12345/api/',
+  },
+  auth:{
+      strategies:{
+          local:{
+              endpoints:{
+                  login:{
+                      method:'post',
+                      url:'login',
+                      propertyName:'token'
+                  },
+                  user:{
+                      method:'get',
+                      url:'me',
+                      propertyName:'user'
+                  },
+                  logout:false
+              }
+          }
+      },
+      redirect:{
+        login: '/login'
+      }
   },
 
 

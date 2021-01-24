@@ -1,11 +1,16 @@
 <template>
 <div class="container">
 <h1>Photos</h1>
-  <div class="photos" v-for="photo in photos" :key="photo.id">
-        <nuxt-link :to="{ path: `/photos/${photo.id}` }">
-         <img :src="photo.download_url" alt="photo" class="photo-item">
-        <p>{{photo.author}}</p>
-        </nuxt-link>
+<br>
+  <div class="photos">
+        <nuxt-link
+        v-for="photo in photos"
+        :to="{ path: `/photos/${photo.id}` }"
+        :key="photo.id"
+      >
+        <img :src="photo.download_url" class="photo-item" />
+        {{ photo.author }}
+      </nuxt-link>
   </div>
 <nuxt-link to="/">Back to home</nuxt-link>
 </div>

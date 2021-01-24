@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@nuxt/content": "^1.11.1",
+    "@nuxtjs/auth": "^4.9.1",
     "@nuxtjs/axios": "^5.12.5",
     "core-js": "^3.6.5",
     "nuxt": "^2.14.6"
@@ -20,10 +21,12 @@
     "@nuxtjs/eslint-config": "^3.1.0",
     "@nuxtjs/eslint-module": "^2.0.0",
     "babel-eslint": "^10.1.0",
+    "cors": "^2.8.5",
     "eslint": "^7.10.0",
     "eslint-config-prettier": "^6.12.0",
     "eslint-plugin-nuxt": "^1.0.0",
     "eslint-plugin-prettier": "^3.1.4",
+    "express": "^4.17.1",
     "prettier": "^2.1.2"
   }
 }

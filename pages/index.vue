@@ -26,6 +26,9 @@
              <nuxt-link to="/users">Users list</nuxt-link>
              <nuxt-link to="/photos">Photo</nuxt-link>
       </div>
+      <div class="links">
+          <button @click="logout">Logout</button>
+      </div>
        <nuxt-content :document="post"></nuxt-content>
 
     </div>
@@ -40,6 +43,12 @@ export default {
             title:'hello-nuxt-app'
         }
     },
+    methods:{
+        async logout(e){
+            await this.$auth.logout()
+            this.$router.push('/login')
+        }
+    }
 }
 </script>
 
