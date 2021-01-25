@@ -31,9 +31,7 @@ router.get('/me',(req, res) => {
 
 router.post('/login',(req,res) => {
     const {email,password} = req.body
-    console.log('--------------');
-    console.log(email)
-    console.log(password)
+
     if(email === 'admin@admin.com' && password==='123456'){
         return res.json({
             user:mockUser,
