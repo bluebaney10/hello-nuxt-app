@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/photos/1002", {data:[{photo:{id:"1002",author:"NASA",width:4312,height:2868,url:"https:\u002F\u002Funsplash.com\u002Fphotos\u002F6-jTZysYY_U",download_url:"https:\u002F\u002Fpicsum.photos\u002Fid\u002F1002\u002F4312\u002F2868"}}],fetch:[],mutations:[]});

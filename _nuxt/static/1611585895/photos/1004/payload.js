@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/photos/1004", {data:[{photo:{id:"1004",author:"Greg Rakozy",width:5616,height:3744,url:"https:\u002F\u002Funsplash.com\u002Fphotos\u002FSSxIGsySh8o",download_url:"https:\u002F\u002Fpicsum.photos\u002Fid\u002F1004\u002F5616\u002F3744"}}],fetch:[],mutations:[]});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/photos/1006", {data:[{photo:{id:"1006",author:"Vladimir Kudinov",width:3000,height:2000,url:"https:\u002F\u002Funsplash.com\u002Fphotos\u002F-wWRHIUklxM",download_url:"https:\u002F\u002Fpicsum.photos\u002Fid\u002F1006\u002F3000\u002F2000"}}],fetch:[],mutations:[]});

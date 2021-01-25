@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/photos/1000", {data:[{photo:{id:"1000",author:"Lukas Budimaier",width:5626,height:3635,url:"https:\u002F\u002Funsplash.com\u002Fphotos\u002F6cY-FvMlmkQ",download_url:"https:\u002F\u002Fpicsum.photos\u002Fid\u002F1000\u002F5626\u002F3635"}}],fetch:[],mutations:[]});
