@@ -1,7 +1,7 @@
 export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
   mode: 'universal',
-  target:'static',
+  target:'server',
 
   head: {
     title: 'hello-nuxt-app',
