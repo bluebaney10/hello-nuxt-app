@@ -38,6 +38,11 @@
 
 <script>
 export default {
+    head(){
+        return{
+            title:'This is index title'
+        }
+    },
     data() {
         return {
             title:'hello-nuxt-app'

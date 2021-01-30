@@ -1,9 +1,13 @@
 export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
+  serverMiddleware: [
+    { path: '/api', handler: '~/api/auth.js' }
+  ],
   mode: 'universal',
-  target:'server',
+  target:'static',
 
   head: {
+    titleTemplate:'Nuxt.js - %s',
     title: 'hello-nuxt-app',
     meta: [
       { charset: 'utf-8' },
@@ -39,7 +43,7 @@ export default {
   ],
 
   axios:{
-        baseURL:'http://localhost:12345/api/',
+        baseURL:'http://localhost:3000/api/',
   },
   auth:{
       strategies:{
